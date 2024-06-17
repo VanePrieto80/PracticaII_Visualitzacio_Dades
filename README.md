@@ -1,68 +1,35 @@
-Vanesa Prieto (vprietop@uoc.edu)
+# **README - Tractament del dades oficials del Ministerio de Educación**
 
-Descripció del Projecte
-Aquest projecte és una eina de web scraping dissenyada per recopilar dades de SoundCloud, una plataforma de distribució de música en línia. Amb aquesta eina pots obtenir informació sobre cançons, àlbums i artistes disponibles a SoundCloud per fer-ne l'anàlisi.
 
-Funcions Destacades
-Recopilar dades de les cançons més populars a SoundCloud.
+# Descripció del Projecte
 
-Registrar la popularitat de cada cançó mitjançant indicadors com el nombre de reproduccions, "M'agrada" i "Repost."
+Els diferents conjunts de dades utilitzats en aquesta visualització, està disponible a la pàgina oficial del Ministerio de Educación del Gobierno de España ([https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-predictiondataset)](https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/alumnado/apoyo/2022-2023.html), és una col·lecció de dades relacionades amb els alumnes amb necessitats educatives especials. Ofereix una valuosa recopilació de dades relacionades amb el ambit de l'educació essencials per comprendre la condició d'aquests alumnes.
 
-Analitzar les tendències musicals dominants i els gèneres més representats a SoundCloud durant l'any 2023.
+L'objectiu principal de l'estudi és realitzar una visualització amb la mutivació de l'escola inclusiva que es pot visualitzar al següent enllaç https://public.tableau.com/app/profile/vanesa.prieto/viz/Vanesa_Prieto_Prieto-PRAII/Visualitzaci?publish=yes.
 
-Identificar artistes emergents que han aconseguit notorietat a la plataforma SoundCloud.
 
-Proporcionar una visió global i anual de les dades recopilades.
+## Estructura del Repositori
 
-Estructura del Repositori
 El repositori està organitzat en les següents carpetes i arxius:
 
-/dataset/: Aquesta carpeta conté el conjunt de dades generat.
+- `/Tableau/`: Aquesta carpeta conté el conjunt d'arxius necessàris per veure el procediment en que s´ha construit la visualització amb Tableau. 
+- `/README.md`: El present arxiu.
 
-/dataset/examples/: Aquesta carpeta conté exemples d'ús del codi.
 
-/source/: Aquesta carpeta conté els arxius de codi font.
 
-/Requeriments.txt: Aquest arxiu conté les biblioteques necessàries.
+## Requisits i configuració
 
-/README.md: El present arxiu.
+Tenir instal·lat el programa per visualitzacions Tableau.
 
-Requisits i configuració
-Instal·la les biblioteques necessàries mitjançant pip install -r requirements.txt.
 
-L'script executa Chrome com a navegador.
+## Llicència
 
-L'IDE utilitzat és Spyder d'Anaconda.
+Aquest projecte es distribueix sota la mateixa llicència amb que es distribueix les dades que ofereix la Subdirección General de Estadística y Estudios del Ministerio de Educación, Formación Profesional y Deportes.
 
-Ús del Codi Generat
-Executa l'script SoundCloud.py per començar una recopilació de dades.
 
-Pots personalitzar els paràmetres de recerca mitjançant l'interfície de línia de comandes a cerca_SoundCloud.py.
+## Contacte
 
-Exemples
-Es presenten diferents exemples de com realitzar una nova recerca canviant els paràmetres que es troben a l'arxiu cerca_SoundCloud.py:
+Per a preguntes, suggeriments o problemes, posa't en contacte amb l'autors a l'adress de correu electrònic adjunta.
 
-Exemple 1:
 
-CERCA = "Alejandro Sanz" # Clave per a realitzar la bùsqueda a SoundCloud N = 5 # Nombre de vegades que es realitzarà SCROLL per a descarregar les dades NOM_ARXIU = "/AlejandroSanz.csv" # Nom de l'arxiu on es descarregaran les dades
-
-Exemple 2:
-
-CERCA = "Decada 90" # Clave per a realitzar la bùsqueda a SoundCloud N = 10 # Nombre de vegades que es realitzarà SCROLL per a descarregar les dades NOM_ARXIU = "/Decada90.csv" # Nom de l'arxiu on es descarregaran les dades
-
-Exemple 3:
-
-CERCA = "Pop Español" # Clave per a realitzar la bùsqueda a SoundCloud N = 15 # Nombre de vegades que es realitzarà SCROLL per a descarregar les dades NOM_ARXIU = "/PopEspañol.csv" # Nom de l'arxiu on es descarregaran les dades.
-
-Llicència
-Aquest projecte es distribueix sota la llicència CC BY-SA 4.0.
-
-Si fas ús d'aquesta eina, recorda respectar els drets d'autor i les polítiques de privadesa de SoundCloud.
-
-DOI de Zenodo
-El conjunt de dades generat en aquest projecte té un DOI de Zenodo. Podeu accedir-hi aquí:
-
-[enllaç al DOI] https://doi.org/10.5281/zenodo.10115525
-
-Contacte
-Per a preguntes, suggeriments o problemes, posa't en contacte amb els autors a qualsevol de les adreces de correu electrònic adjuntes.
+> **Data:** 17/06/2024
